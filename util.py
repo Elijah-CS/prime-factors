@@ -17,12 +17,6 @@ def isPrime(n):
     if n % 2 == 0:
         return False
 
-    # for i in range(1, 40):
-    #     a = random.randint(1, n - 1)
-    #     if isComposite(a, n):
-    #         return False
-    # return True
-
     return isprime(n)
 
 def isComposite(a, n):
